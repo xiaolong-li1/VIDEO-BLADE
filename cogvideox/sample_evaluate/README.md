@@ -12,7 +12,7 @@ simple/
 ├── modify_cogvideo.py                  # CogVideo 修改脚本
 ├── test_block_sparse_attention.py      # 块稀疏注意力测试
 ├── configs/                            # 配置文件目录
-├── VBench/                             # VBench 评估工具
+├── VBench/                             # VBench 评估工具(需要手动clone到这里）
 ├── Cogvideo5b_4steps_0.84/            # 生成结果示例
 └── Triton/                             # Triton 相关代码
 
@@ -27,6 +27,7 @@ simple/
 #### 步骤 1: 激活环境
 
 ```bash
+git clone https://github.com/Vchitect/VBench.git
 source /workspace/Vbench_EVA/vbench_env/bin/activate
 ```
 
