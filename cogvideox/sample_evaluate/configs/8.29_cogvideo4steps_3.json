@@ -1,0 +1,17 @@
+{
+  "experiment_name": "checkpoint_300_full_weight_fake_without_sparsity",
+  "cache_dir": "/workspace/Vbench_EVA/.cache_dir",
+  "transformer_weight":"/workspace/VIDEO-BLADE/cogvideox/outputs/cogvideox/9.4/bs96-new_asa-4_steps_full_weight-lr5e-6_lambda-reg_0.5_cfg_3.5_eta_0.9_K_4/checkpoint-300/transformer",
+  "use_sparse_attention": true,
+  "num_inference_steps": 4,
+  "guidance_scale": 1.0,
+  "batch_size": 10,
+  "gpu_ids": [0, 1],
+  "naming_prompt_file": "/workspace/Vbench_EVA/VBench/prompts/all_dimension.txt",
+  "sampling_prompt_file": "/workspace/Vbench_EVA/VBench/prompts/augmented_prompts/gpt_enhanced_prompts/all_dimension_longer.txt",
+  "output_dir": "./Cogvideo5b_4steps_0.84",
+  "max_prompts": null,
+  "start_index": 0,
+  "videos_per_prompt": 5,
+  "base_seed": 42
+}

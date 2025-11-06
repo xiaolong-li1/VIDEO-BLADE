@@ -1,0 +1,17 @@
+{
+  "experiment_name": "test_vbench",
+  "cache_dir": "/workspace/.cache/huggingface/",
+  "lora_path": "/workspace/tdmweight/TDM_250_500iter/checkpoint-250",
+  "use_sparse_attention": true,
+  "num_inference_steps": 8,
+  "guidance_scale": 1.0,
+  "batch_size": 2,
+  "gpu_ids": [0, 1, 2],
+  "naming_prompt_file": "/workspace/VBench/prompts/all_dimension.txt",
+  "sampling_prompt_file": "/workspace/VBench/prompts/augmented_prompts/gpt_enhanced_prompts/all_dimension_longer.txt",
+  "output_dir": "./test_output",
+  "max_prompts": 30,
+  "start_index": 0,
+  "videos_per_prompt": 2,
+  "base_seed": 42
+}
